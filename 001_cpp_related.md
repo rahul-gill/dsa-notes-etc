@@ -40,6 +40,8 @@ if (!(cin >> n)) {
 cin>>std::ws;
 //setting floating point precision of output
 cout << fixed << setprecision(2) << x << endl;
+//setting output format of integer 00025, setfill sets the fill character and setw sets the width
+std::cout << std::setfill('0') << std::setw(5) << 25; 
 ```
 - stringstreams to manipulate strings as streams
 ```cpp
